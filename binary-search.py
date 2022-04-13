@@ -4,7 +4,7 @@ def binary_search(array, search_value):
     lower_bound = 0
     upper_bound = len(array) - 1
 
-# get midpoint or meduian then
+# get midpoint or median then
 # set mid value as value to return value instead of index position
     while lower_bound <= upper_bound:
         midpoint = (lower_bound + upper_bound) // 2
